@@ -1,0 +1,11 @@
+{
+  "name": "hello-wasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RandomAmbersky/hello-wasm.git",
+  "author": "sir Random Ambersky <random@amberskynet.org>",
+  "license": "MIT",
+  "scripts": {
+    "wasm:build": "wasm-pack build"
+  }
+}
