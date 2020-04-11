@@ -6,6 +6,13 @@
   "author": "sir Random Ambersky <random@amberskynet.org>",
   "license": "MIT",
   "scripts": {
-    "wasm:build": "wasm-pack build"
+    "wasm:build": "wasm-pack build",
+    "build": "yarn wasm:build",
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
